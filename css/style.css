@@ -1,0 +1,146 @@
+
+	/*Default*/
+
+	body, html {
+		margin: 0px;
+		box-sizing: border-box;
+		font-size: 10px;
+
+	}
+
+	.d-flex {
+		display: flex;
+	}
+
+	.t-al-c {
+		text-align: center;
+	}
+
+	.al-it-c {
+		align-items: center;
+	}
+
+	.just-c-c {
+		justify-content: center;
+	}
+
+	.just-c-sp-ar {
+		justify-content: space-around;
+	}
+
+	.bord-box {
+		box-sizing: border-box;
+	}
+
+	/*Custom*/
+
+	input:valid {
+		border: 1px solid green;
+	}
+
+	input:invalid {
+		border: 1px solid red;
+	}
+
+	input:required {
+		color: red;
+	}
+
+	input:valid {
+		color:green;
+	}
+
+	.ducks {
+		width: 600px;
+		height: 400px;
+		margin: auto;
+	}
+
+	.uncle-img {
+		width: 270px;
+	}
+
+	.pad-t-20 {
+		padding-top: 20px;
+	}
+
+	progress {
+		margin-right: 20px;
+		background-color: red;
+		width: 7vw;
+   		height: 1vw;
+	}
+
+	button {
+		padding: 7px;
+    	border-radius: 50px;
+    	background: #E5B50F;
+    	outline: none;
+    	margin-right: 5px;
+    	font-size: 1.6rem;
+
+	}
+
+	p {
+		margin-right: 10px;
+		font-size: 2rem;
+	}
+
+	input[name="petName"] {
+		border-radius: 20px;
+		text-align: center;
+		margin-left: 65px;
+		height: 20px;
+	}
+
+	input[name="petName"]:focus {
+	border: 3px solid #E5B50F;
+	outline: none;
+}
+
+	[type="radio"] {
+		display: none;
+	}
+
+	.screen {
+		background-image:
+		url(..\\img\\back.jpg);
+		background-repeat: no-repeat;
+		background-size: 100% 110%
+
+	}
+
+	.behavior {
+		padding: 30px;
+	}
+
+	.top-bar, .bot-bar {
+		padding-top: 20px;
+	}
+
+	.prevent {
+		pointer-events: none;
+	}
+
+	.uncle-img {
+		position: absolute;
+   		top: 20px;
+	}
+
+	[type="radio"]:checked + .kid-1 {
+			border: 7px solid red;
+	}
+
+	[type="radio"]:checked + .kid-2 {
+			border: 7px solid blue;
+	}
+
+	[type="radio"]:checked + .kid-3 {
+			border: 7px solid #3A7F00;
+	}
+
+
+
+
+	
+
