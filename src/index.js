@@ -1,3 +1,5 @@
+
+
 var pet;
 
         function choose(){
@@ -153,7 +155,7 @@ var pet;
 			PetBehavior.call(this,name);
 			this.eat = function(){
 				this.timeOut('mood', -40, 1000);
-				this.timeOut('satiety', 30, 1000);
+				this.timeOut('satiety', 10, 1000);
 				PetBehavior.updateInfo(this);
 			}
 			this.sleep = function(){
